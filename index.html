@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    
+<!--
+TITLE: Project 3 -- Thomas Byker
+AUTHOR: Thomas J. Byker (TJB), CSCI N300 2013, Spring
+PURPOSE: Exploring JQTouch Library - by rebuilding the same web page from Project 1   
+ORIGINALLY CREATED ON: 02.28.2013
+LAST MODIFIED ON: 03.04.2013
+LAST MODIFIED BY: Thomas J. Byker (TJB)
+MODIFICATION HISTORY: 
+No Modifications
+-->    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>TByker: P.3</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="assets/css/themes/apple.css" />
+        <link rel="stylesheet" href="assets/css/app.css" />
+        
+        <script src="assets/js/libs/modernizr.js"></script>
+        
+    </head>
+    <body>
+    
+    	<div id="jqt">
+    
+    		<div id="home">
+                <header class="toolbar">
+                    <h1>Project 3</h1>
+                    <a class="button slideup" id="infoButton" href="#aboutme">About</a>
+                </header>
+                <div class="scroll">
+                    <ul class="rounded">
+                        <li class="arrow"><a href="#blogposts">Blog Posts <small class="counter">3</small></a></li>
+                        <li class="arrow"><a href="#contactform"> Contact Me</a></li>                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="aboutme">
+               
+                <header class="toolbar">
+                    <h1>About Me</h1>
+                    <a class="back" href="#home">Home</a>
+                </header>
+                
+                <article class="page article clearfix">
+        	
+		        	<div class="article-content">
+		        		
+		        		<img src="assets/img/county.png" class="article-photo" />
+		        		
+		        		<p><b>About Tom Byker --</b>  I am currently working towards obtaining a Certificate in Applied Computer Science at IUPUI and am currently employed with the Digital Mapping company Tom Tom.</p>
+
+						<p>Fun fact about me: The image above illustrates my love to travel across the United States of America. Over the last ten years, I have personally visited and pictured all 3,119 counties in the forty-eight contiguous states. The image above shows my progression by year from 2002 until 2012. The first county ever visited and pictured was Los Alamos County, New Mexico in November of 2002 and the last county was Pinellas County, FL in July of 2012. I have visited and pictured 4 out of 5 counties in Hawaii and 4 out of the 23 buroughs in Alaska. </p>
+
+						<p>I am very excited about our CSCI 300 course and I hope to gain practical understanding concerning all the various intricacies of HTML, CSS and JavaScript in Mobile Applications.</p>
+        				
+		        	</div>	        		
+		        	
+	        	</article>
+                
+            </div>
+            
+            <div id="blogposts">
+            	
+                <header class="toolbar">
+                    <h1>Blog Posts</h1>
+                    <a class="back" href="#">Home</a>
+                </header>
+            	
+                <div class="scroll">
+                	
+                	<ul class="rounded">
+                		<li class="arrow"><a href="#news1-travel">Travel News</a></li>
+                		<li class="arrow"><a href="#news2-sports">Sports News</a></li>
+                		<li class="arrow"><a href="#news3-local">Local News</a></li>
+                	</ul>
+                
+                </div>
+                
+            </div>
+            
+            <div id="news1-travel">
+            	
+                <header class="toolbar">
+                    <h1>Travel News</h1>
+                    <a class="back"  href="#blogposts">Blog</a>
+                </header>
+            	
+                <div class="scroll">
+                	
+                	<div class="page">
+                		
+                		<article class="article">
+                	
+                			<img src="assets/img/seattle.jpg" class="article-photo" />
+                			
+                			<h3 class="article-header">Most Popular Cities: Seattle Best-Liked, Detroit Least-Liked</h3> <br />
+	        		
+		                	<p><b>SEATTLE, Wash. --</b> A new poll from Public Policy Polling names Detroit America's least popular city, out of 21 major metropolises. Only 22 percent of respondents saw the Motor City favorably, and 49 percent had a negative view. Those who voted for President Obama in 2008 were twice as likely to view Detroit favorably as those who voted for John McCain, but the "very liberal" and the "very conservative" are almost just as likely to hate the D (47 and 53 percent unfavorable, respectively).</p>
+		
+			        		<p>Women like Detroit better than men (maybe not surprising, given our D+ ranking as a "great city for single men"). Nearly half of whites and Hispanics said Detroit made them think "unfavorable!" and 40 percent of blacks agreed. More people like our midwest sister cities Chicago (42 favorable to 33 unfavorable) and Cleveland (32 to 25). Joining Detroit at the bottom: Oakland, Calif., (we can see that -- the East Bay has a similar reputation to Detroit, after all) and Los Angeles (this seems like more of an anti-Beautiful People vote).</p>
+			        		
+			        		<blockquote>Seattle was ranked most popular, with 57 percent finding the land of Starbucks and Microsoft a favorable place. Some people like Seattle so much they're just marrying it -- well, one woman got hitched to a Seattle warehouse. Fellow Pacific Northwest urban center Portland came in a close second (52 percent favorable), we're sure solely thanks to "Portlandia." But we're not bitter. </blockquote>
+
+							<p>Boston (52-17) and Atlanta (51-19) were the only other cities at least half of respondents felt good about. Maybe these survey-takers just hate urban America? What do you think: Does Seattle deserve to top this list? Does Detroit belong at the bottom? Let us know in the comments. </p>
+							
+		                </article>
+	                	
+                	</div>
+                	
+                </div>
+                
+            </div>
+            
+            <div id="news2-sports">
+            	
+                <header class="toolbar">
+                    <h1>Sports News</h1>
+                    <a class="back" href="#blogposts">Blog</a>
+                </header>
+            	
+                <div class="scroll">
+                	
+                	<div class="page">
+                		
+                		<article class="article">
+                	
+                			<img src="assets/img/superbowl2013.jpg" class="article-photo" />
+                			
+                			<h3 class="article-header">Baltimore Ravens win Super Bowl, defeating San Francisco 49ers, 34-31</h3> <br />
+	        		
+		                	<p><b>NEW ORLEANS, Lois. --</b> The Baltimore Ravens emerged Super Bowl champions after one of the strangest and most incredible Super Bowl games in recent memory. It's the second championship for the Ravens, who pulled out a 34-31 win over the San Francisco 49ers at the Superdome in New Orleans.</p>
+
+							<p> The Super Bowl is the biggest spectacle in American sports, and each year becomes the most watched television event in history. This year, Jennifer Hudson kicked things off with a touching performance of "America the Beautiful" with a choir of students from Sandy Hook Elementary School. Alicia Keys accompanied herself on the piano for a long, jazzy rendition of the national anthem, before the coin toss which resulted in San Francisco receiving to start the first half. Although the game looked at one point like it was going to be a completely unexpected blow-out, with the Ravens leading 28-6 at the beginning of the 3rd quarter, the 49ers got some unusual help that turned the showdown into a much more exciting battle. About a third of the way into the 3rd quarter, right after a record-tying Ravens rushing touchdown, the power went out at the Superdome, knocking the lights and air conditioning out in the indoor stadium. The crowd of more than 71,000 strong, along with a lot of antsy players, coaches, and staff waited for 34 minutes for the power to fully come back on and the game to resume. </p>
+
+							<p> In a statement, the NFL said authorities were "investigating the cause of the power outage," and law enforcement sources told ABC News it was just an issue with the building. That didn't stop many people on Twitter from jokingly blaming Beyonce, the energetic halftime performer who surprisingly reunited shortly with her former band Destiny's Child, for shutting down the power. After her performance, even her husband Jay-Z got in on it, tweeting "Lights out!!! Any questions??" </p>
+
+							<blockquote> This is the fifth season in a row that the Ravens have made it to the playoffs, led by Coach John Harbaugh, and SB XLVII MVP Quarterback Joe Flacco. It's the team's first Lombardi trophy since 2000. Their victor tonight made them the only team left in the NFL to have never lost a Super Bowl in multiple appearances.</blockquote>
+
+							<p> The 49ers quickly followed the long delay with a touchdown, getting themselves right back into the game. Then just a few minutes later, they found themselves in the end zone again, and it appeared the power outage had flipped the momentum towards the 49ers. With a score of 31-29 with more than 7 minutes left in the game, San Francisco looked poised to make the biggest comeback in Super Bowl history, but the team, trying for its 6th title, wasn't able to overcome the Ravens lead. Baltimore was able to run out the clock, and the game ended with a final score of 34-31. Purple and gold confetti fell as the Ravens rushed onto the field and celebrated -- with some colorful language from quarterback Joe Flacco audible on the live broadcast, who was caught saying, "f***ing awesome" on CBS' cameras. The game was already historic thanks to the match-up for John and Jim Harbaugh, the first head coach brothers to ever face each other on football's biggest stage. It was also the final game for the future Hall of Fame linebacker Ray Lewis, who is, as of the conclusion of the game retired from football. </p>
+							
+		                </article>
+	                	
+                	</div>
+                	
+                </div>
+                
+            </div>
+            
+            <div id="news3-local">
+            	
+                <header class="toolbar">
+                    <h1>Local News</h1>
+                    <a class="back" href="#blogposts">Blog</a>
+                </header>
+            	
+                <div class="scroll">
+                	
+                	<div class="page">
+                		
+                		<article class="article">
+                	
+                			<img src="assets/img/carmel.jpg" class="article-photo" />
+                			
+                			<h3 class="article-header">Is a Carmel convention center next?</h3> <br />
+	        		
+		                	<p><b>CARMEL, Ind. --</b> Visitors are already flocking to Carmel to catch a show at The Palladium or an artsy street fair in the Arts and Design District. Why not try a small convention center? That's a question the city has begun to explore as it launches a three-month study to determine the feasibility of adding yet another major attraction to the redevelopment of its downtown area.</p>
+
+							<p>Carmel Mayor Jim Brainard has hired an industry expert and consultant to carry out the study in hopes of answering questions such as when, if and how big such a facility might be. "If we built one, it could bring a tremendous amount of business to Carmel," said Brainard. "It would help our economic development, bring more jobs and ultimately help us keep our residential tax rates low." But there is an immediate concern among some in the local business community: Carmel already has three large banquet and meeting centers and a major hotel with similar offerings. Not to mention other sites scattered around Hamilton County.</p>
+
+							<p>"We need to be thoughtful about the meeting industry," said Brenda Myers, executive director of the Hamilton County Convention and Visitors Bureau, who added that given the demand, she is not surprised Carmel is thinking about it. "The market is probably ripe for something like this now," she said. "I am pleased that the mayor has hired an expert to determine what our capacity is and what size and scope such a project should be."</p>
+
+							<blockquote>From the get-go, Brainard appears to be trying to allay some of those concerns, especially from owners and operators of The Ritz Charles, The Fountains and Oak Hill Mansion, all in Carmel. "This has been in our City Center plan since 1997," he said. "And we don't want to do something that hurts existing providers of space and existing hotels. "We want to attract business that is not served." Particularly, he said, Carmel might become a destination place for regional, statewide or national niche conventions that are looking for more than a banquet center but less than a major convention center. "We also don't want to be in competition with Downtown Indianapolis," he said.</blockquote>
+
+							<p>A suburban convention center would be nothing new in America. According to the Trade Show Executive website, there are 124 small convention centers (less than 100,000 square feet) and 120 mid-size centers (100,000 to 350,000 square feet). Experts at the Urban Land Institute have reported that places like the Cobb Galleria in suburban Atlanta and Overland Park Convention Center outside Kansas City are natural outgrowths of other recent suburban attractions, such as performing arts centers -- designed to cater to a growing population that wants to stay and play closer to home. For event planners, the attraction to suburban locations includes less expensive hotel rooms, free parking and avoiding downtown traffic issues.</p>
+							
+		                </article>
+	                	
+                	</div>
+                	
+                </div>
+                
+            </div>
+            
+            <div id="contactform" action="#" method="post" class="form">
+               
+                <header class="toolbar">
+                    <h1>Contact Me</h1>
+                    <a class="back" href="#">Home</a>
+                </header>
+                
+                <div class="scroll">
+
+                	<div class="page">
+	                	
+	                    <p>
+	                    	
+	                    	<b><span class="icon-envelope-alt"></span></b> <a href="callto:tommybyker@gmail.com"> tommybyker@gmail.com</a> <br />
+	                    	<b><span class="icon-phone"> </span></b> <a href="callto:317-270-8859"> 317-270-8859</a> <br />
+	                    	<b><span class="icon-twitter"></span></b> <a href="@Thomabyk"> @Thomabyk</a> <br />
+	                    	<b><span class="icon-facebook"></span></b> <a href="tommybyker"> tommybyker</a> <br />
+			        		
+			        	</p>     
+			        	  	
+			        	<form>
+			        		
+			        		<div class="input-wrapper">
+			        			<label for="name" class="input-label">Name</label>
+			        			<input type="text" name="name" value="" placeholder="Enter First and Last Name" id="name" class="input" />
+			        		</div>
+			        		
+			        		<div class="input-wrapper">
+			        			<label for="email" class="input-label">Email</label>
+			        			<input type="email" name="email" value="" placeholder="Enter Email Address" id="email" class="input" />
+			        		</div>
+			        		
+			        		<div class="input-wrapper">
+			        			<label for="phone" class="input-label">Phone Number</label>
+			        			<input type="text" name="phone" value="" placeholder="Enter Phone Number" id="phone" class="input" />
+			        		</div>
+			        		
+			        		<div class="input-wrapper">
+			        			<label for="message" class="input-label">Type Message</label>
+			        			<textarea name="name" placeholder="Type your message here..." id="message" class="textarea"></textarea>
+			        		</div>
+			        		
+			        		<button type="submit" class="greenButton"><span class="icon-envelope"></span> Send Email</button>
+			        		
+			        	</form>
+				        
+			        </div>
+			        
+                </div>
+            </div>
+        </div>
+     
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/libs/jquery.js"><\/script>')</script>
+        <script src="assets/js/libs/jqtouch.js" type="text/javascript"></script>
+        <script src="assets/js/libs/jqtouch-jquery.js" type="text/javascript"></script>
+        <script src="assets/js/app.js" type="text/javascript"></script>
+        
+    </body>
+</html>
